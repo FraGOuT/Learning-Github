@@ -38,6 +38,9 @@ int CheckShot()
     return distance;
 }
 
+/**
+*	Randomly Initialize the position of the enemy.
+**/
 int Initialize()
 {
     srand(time(0));
